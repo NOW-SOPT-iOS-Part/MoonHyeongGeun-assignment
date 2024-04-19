@@ -12,6 +12,17 @@
 		2E979FF02BD2326200B451F8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E979FEF2BD2326200B451F8 /* WelcomeViewController.swift */; };
 		2E979FF52BD2326300B451F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E979FF42BD2326300B451F8 /* Assets.xcassets */; };
 		2E979FF82BD2326300B451F8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2E979FF72BD2326300B451F8 /* Base */; };
+		2E97A0172BD235B400B451F8 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A0042BD235B400B451F8 /* Pretendard-Black.otf */; };
+		2E97A0192BD235B400B451F8 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A0062BD235B400B451F8 /* Pretendard-Bold.otf */; };
+		2E97A01B2BD235B400B451F8 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A0082BD235B400B451F8 /* Pretendard-ExtraBold.otf */; };
+		2E97A01D2BD235B400B451F8 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A00A2BD235B400B451F8 /* Pretendard-ExtraLight.otf */; };
+		2E97A01F2BD235B400B451F8 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A00C2BD235B400B451F8 /* Pretendard-Light.otf */; };
+		2E97A0212BD235B400B451F8 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A00E2BD235B400B451F8 /* Pretendard-Medium.otf */; };
+		2E97A0232BD235B400B451F8 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A0102BD235B400B451F8 /* Pretendard-Regular.otf */; };
+		2E97A0252BD235B400B451F8 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A0122BD235B400B451F8 /* Pretendard-SemiBold.otf */; };
+		2E97A0272BD235B400B451F8 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A0142BD235B400B451F8 /* Pretendard-Thin.otf */; };
+		2E97A02B2BD236AD00B451F8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E97A02A2BD236AD00B451F8 /* SnapKit */; };
+		2E97A02D2BD236AD00B451F8 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2E97A02C2BD236AD00B451F8 /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,15 @@
 		2E979FF42BD2326300B451F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E979FF72BD2326300B451F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E979FF92BD2326300B451F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E97A0042BD235B400B451F8 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		2E97A0062BD235B400B451F8 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		2E97A0082BD235B400B451F8 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		2E97A00A2BD235B400B451F8 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		2E97A00C2BD235B400B451F8 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		2E97A00E2BD235B400B451F8 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		2E97A0102BD235B400B451F8 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		2E97A0122BD235B400B451F8 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		2E97A0142BD235B400B451F8 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E97A02B2BD236AD00B451F8 /* SnapKit in Frameworks */,
+				2E97A02D2BD236AD00B451F8 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +102,7 @@
 		2E97A0012BD2342800B451F8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2E97A0162BD235B400B451F8 /* Font */,
 				2E979FF42BD2326300B451F8 /* Assets.xcassets */,
 				2E979FF62BD2326300B451F8 /* LaunchScreen.storyboard */,
 				2E979FF92BD2326300B451F8 /* Info.plist */,
@@ -94,6 +117,22 @@
 				2E979FED2BD2326200B451F8 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		2E97A0162BD235B400B451F8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2E97A0042BD235B400B451F8 /* Pretendard-Black.otf */,
+				2E97A0062BD235B400B451F8 /* Pretendard-Bold.otf */,
+				2E97A0082BD235B400B451F8 /* Pretendard-ExtraBold.otf */,
+				2E97A00A2BD235B400B451F8 /* Pretendard-ExtraLight.otf */,
+				2E97A00C2BD235B400B451F8 /* Pretendard-Light.otf */,
+				2E97A00E2BD235B400B451F8 /* Pretendard-Medium.otf */,
+				2E97A0102BD235B400B451F8 /* Pretendard-Regular.otf */,
+				2E97A0122BD235B400B451F8 /* Pretendard-SemiBold.otf */,
+				2E97A0142BD235B400B451F8 /* Pretendard-Thin.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +151,10 @@
 			dependencies = (
 			);
 			name = "34th-Sopt-Assignment";
+			packageProductDependencies = (
+				2E97A02A2BD236AD00B451F8 /* SnapKit */,
+				2E97A02C2BD236AD00B451F8 /* SnapKit-Dynamic */,
+			);
 			productName = "34th-Sopt-Assignment";
 			productReference = 2E979FE82BD2326200B451F8 /* 34th-Sopt-Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 2E979FDF2BD2326200B451F8;
+			packageReferences = (
+				2E97A0292BD236AD00B451F8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2E979FE92BD2326200B451F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -154,8 +200,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E97A01D2BD235B400B451F8 /* Pretendard-ExtraLight.otf in Resources */,
 				2E979FF52BD2326300B451F8 /* Assets.xcassets in Resources */,
+				2E97A0192BD235B400B451F8 /* Pretendard-Bold.otf in Resources */,
+				2E97A0212BD235B400B451F8 /* Pretendard-Medium.otf in Resources */,
+				2E97A01B2BD235B400B451F8 /* Pretendard-ExtraBold.otf in Resources */,
+				2E97A0172BD235B400B451F8 /* Pretendard-Black.otf in Resources */,
+				2E97A01F2BD235B400B451F8 /* Pretendard-Light.otf in Resources */,
+				2E97A0232BD235B400B451F8 /* Pretendard-Regular.otf in Resources */,
 				2E979FF82BD2326300B451F8 /* Base in Resources */,
+				2E97A0272BD235B400B451F8 /* Pretendard-Thin.otf in Resources */,
+				2E97A0252BD235B400B451F8 /* Pretendard-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +436,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E97A0292BD236AD00B451F8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E97A02A2BD236AD00B451F8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E97A0292BD236AD00B451F8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2E97A02C2BD236AD00B451F8 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E97A0292BD236AD00B451F8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E979FE02BD2326200B451F8 /* Project object */;
 }

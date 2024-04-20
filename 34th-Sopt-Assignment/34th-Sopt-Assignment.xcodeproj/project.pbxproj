@@ -23,6 +23,7 @@
 		2E97A0272BD235B400B451F8 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E97A0142BD235B400B451F8 /* Pretendard-Thin.otf */; };
 		2E97A02B2BD236AD00B451F8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E97A02A2BD236AD00B451F8 /* SnapKit */; };
 		2E97A02D2BD236AD00B451F8 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2E97A02C2BD236AD00B451F8 /* SnapKit-Dynamic */; };
+		2E97A02F2BD243C000B451F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97A02E2BD243C000B451F8 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2E97A0102BD235B400B451F8 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		2E97A0122BD235B400B451F8 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		2E97A0142BD235B400B451F8 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		2E97A02E2BD243C000B451F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		2E979FEA2BD2326200B451F8 /* 34th-Sopt-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				2E979FF92BD2326300B451F8 /* Info.plist */,
 				2E97A0022BD2348400B451F8 /* Application */,
 				2E97A0012BD2342800B451F8 /* Resources */,
 				2E97A0002BD2341F00B451F8 /* ViewController */,
@@ -95,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2E979FEF2BD2326200B451F8 /* WelcomeViewController.swift */,
+				2E97A02E2BD243C000B451F8 /* LoginViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -105,7 +109,6 @@
 				2E97A0162BD235B400B451F8 /* Font */,
 				2E979FF42BD2326300B451F8 /* Assets.xcassets */,
 				2E979FF62BD2326300B451F8 /* LaunchScreen.storyboard */,
-				2E979FF92BD2326300B451F8 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E97A02F2BD243C000B451F8 /* LoginViewController.swift in Sources */,
 				2E979FF02BD2326200B451F8 /* WelcomeViewController.swift in Sources */,
 				2E979FEC2BD2326200B451F8 /* AppDelegate.swift in Sources */,
 				2E979FEE2BD2326200B451F8 /* SceneDelegate.swift in Sources */,
@@ -371,7 +375,6 @@
 				INFOPLIST_FILE = "34th-Sopt-Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -398,7 +401,6 @@
 				INFOPLIST_FILE = "34th-Sopt-Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

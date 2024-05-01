@@ -2,7 +2,7 @@ import UIKit
 import Then
 import SnapKit
 
-final class MainCell: UICollectionViewCell {
+final class MainCell: UICollectionViewCell, ReuseIdentifiable {
     
     // MARK: - UIComponent
     
@@ -11,9 +11,15 @@ final class MainCell: UICollectionViewCell {
         collectionViewLayout: configureCollectionViewFlowLayout()
     )
     
+    private let pageControl = UIPageControl()
+    
     // MARK: - Property
     
     private var data: [Program]?
+    
+    // MARK: - Identifier
+    
+    static let identifier = "MainCellIdentifier"
 
     // MARK: - Initializer
     
@@ -21,6 +27,7 @@ final class MainCell: UICollectionViewCell {
         super.init(frame: .zero)
         
         setUI()
+        setViewHierarchy()
         setAutoLayout()
         setDelegate()
     }
@@ -31,12 +38,13 @@ final class MainCell: UICollectionViewCell {
     
     func bind(data: [Program]) {
         self.data = data
+        pageControl.numberOfPages = data.count
     }
     
     private func configureCollectionViewFlowLayout() -> UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
-        layout.itemSize = .init(width: UIScreen.main.bounds.width, height: Screen.height(498))
+        layout.itemSize = .init(width: UIScreen.main.bounds.width, height: Screen.height(200))
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         return layout
@@ -47,16 +55,16 @@ final class MainCell: UICollectionViewCell {
 
 extension MainCell: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        guard let data else { return 0 }
+        guard let data = data else { return 0 }
         return data.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let data = data,
               let cell = collectionView.dequeueReusableCell(
-                withReuseIdentifier: MainCell.identifier,
+                withReuseIdentifier: InnerCell.reuseIdentifier,
                 for: indexPath
-        ) as? MainCell
+        ) as? InnerCell
         else {
             return UICollectionViewCell()
         }
@@ -71,11 +79,12 @@ extension MainCell: UICollectionViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let width = scrollView.frame.width
         let currentPage = Int((scrollView.contentOffset.x + width / 2) / width)
+        pageControl.currentPage = currentPage
     }
 }
 
 private extension MainCell {
-    final class InnerCell: UICollectionViewCell {
+    final class InnerCell: UICollectionViewCell, ReuseIdentifiable {
         
         // MARK: - UIComponent
         
@@ -119,7 +128,18 @@ private extension MainCell {
             $0.backgroundColor = .black
             $0.isPagingEnabled = true
             $0.showsHorizontalScrollIndicator = false
+            $0.register(InnerCell.self, forCellWithReuseIdentifier: InnerCell.reuseIdentifier)
         }
+        pageControl.do {
+            $0.transform = .init(scaleX: 0.7, y: 0.7)
+            $0.currentPageIndicatorTintColor = .white
+            $0.pageIndicatorTintColor = .gray3
+            $0.backgroundColor = .clear
+        }
+    }
+    
+    func setViewHierarchy() {
+        addSubviews(collectionView, pageControl)
     }
     
     // MARK: - AutoLayout
@@ -128,6 +148,11 @@ private extension MainCell {
         collectionView.snp.makeConstraints {
             $0.top.horizontalEdges.equalToSuperview()
             $0.height.equalTo(Screen.height(498))
+        }
+        
+        pageControl.snp.makeConstraints {
+            $0.leading.equalToSuperview().offset(-30)
+            $0.bottom.equalToSuperview()
         }
     }
     
@@ -138,4 +163,3 @@ private extension MainCell {
         collectionView.delegate = self
     }
 }
-

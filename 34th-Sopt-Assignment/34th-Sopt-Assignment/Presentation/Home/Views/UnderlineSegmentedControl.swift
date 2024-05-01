@@ -56,7 +56,7 @@ private extension UnderlineSegmentedControl {
     func setUI() {
         let attributes = [
             NSAttributedString.Key.foregroundColor: UIColor.white,
-            .font: UIFont.pretendard(weight: .four, size: 17)
+            .font: UIFont.pretendardFont(weight: 400, size: 17)
         ]
         setTitleTextAttributes(attributes, for: .normal)
         setTitleTextAttributes(attributes, for: .selected)
@@ -94,4 +94,3 @@ private extension UnderlineSegmentedControl {
         return frames
     }
 }
-

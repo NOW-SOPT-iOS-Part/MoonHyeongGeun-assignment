@@ -11,13 +11,13 @@ struct Program {
 extension Program {
     static var main: [Self] {
         [Program(image: .poster0),
-         Program(image: .poster0),
-         Program(image: .poster0),
-         Program(image: .poster0),
-         Program(image: .poster0)]
+         Program(image: .poster1),
+         Program(image: .poster2),
+         Program(image: .poster3),
+         Program(image: .poster4)]
     }
     
-    static var recommend: [Self] {
+    static var mustWatch: [Self] {
         [Program(image: .poster1, title: "너의 이름은"),
          Program(image: .poster1, title: "시그널"),
          Program(image: .poster1, title: "해리포터"),

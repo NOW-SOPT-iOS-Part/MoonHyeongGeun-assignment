@@ -1,23 +1,23 @@
 import UIKit
 
 struct Program {
-    var image: UIImage
-    var title: String = ""
-    var rank: Int = 0
-    var channel: String = ""
-    var rating: Float = 0.0
+    var image: UIImage?
+    var title: String?
+    var rank: Int?
+    var channel: String?
+    var rating: Float?
 }
 
 extension Program {
     static var main: [Self] {
         [Program(image: .poster0),
-         Program(image: .poster1),
-         Program(image: .poster2),
-         Program(image: .poster3),
-         Program(image: .poster4)]
+         Program(image: .poster0),
+         Program(image: .poster0),
+         Program(image: .poster0),
+         Program(image: .poster0)]
     }
     
-    static var mustWatch: [Self] {
+    static var mustSee: [Self] {
         [Program(image: .poster1, title: "너의 이름은"),
          Program(image: .poster1, title: "시그널"),
          Program(image: .poster1, title: "해리포터"),

@@ -21,10 +21,12 @@
 		2E43491F2BDE16080074FE82 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43491E2BDE16080074FE82 /* UILabel+Extension.swift */; };
 		2E4349212BDE1AC60074FE82 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4349202BDE1AC60074FE82 /* UITextField+Extension.swift */; };
 		2E4B26292BEA1854003F6DC6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B26282BEA1854003F6DC6 /* HomeViewController.swift */; };
-		2E4B262D2BEA7FE6003F6DC6 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B262C2BEA7FE6003F6DC6 /* MainCollectionViewCell.swift */; };
+		2E4B262D2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B262C2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift */; };
 		2E6189662BDF67C800CDC433 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6189652BDF67C800CDC433 /* UIView+Extension.swift */; };
-		2E6189682BDF831200CDC433 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6189672BDF831200CDC433 /* MainViewController.swift */; };
+		2E6189682BDF831200CDC433 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6189672BDF831200CDC433 /* BaseViewController.swift */; };
 		2E6628FD2BE125BF00CE420F /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6628FC2BE125BF00CE420F /* Program.swift */; };
+		2E66D5802BEDA4DD001C3221 /* RecommendCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66D57F2BEDA4DD001C3221 /* RecommendCollectionHeaderView.swift */; };
+		2E7A9DA72BECBE100044DF54 /* RecommendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A9DA62BECBE100044DF54 /* RecommendCollectionViewCell.swift */; };
 		2E979FEC2BD2326200B451F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E979FEB2BD2326200B451F8 /* AppDelegate.swift */; };
 		2E979FEE2BD2326200B451F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E979FED2BD2326200B451F8 /* SceneDelegate.swift */; };
 		2E979FF02BD2326200B451F8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E979FEF2BD2326200B451F8 /* WelcomeViewController.swift */; };
@@ -51,10 +53,12 @@
 		2E43491E2BDE16080074FE82 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		2E4349202BDE1AC60074FE82 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		2E4B26282BEA1854003F6DC6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		2E4B262C2BEA7FE6003F6DC6 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		2E4B262C2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
 		2E6189652BDF67C800CDC433 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		2E6189672BDF831200CDC433 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2E6189672BDF831200CDC433 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2E6628FC2BE125BF00CE420F /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		2E66D57F2BEDA4DD001C3221 /* RecommendCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionHeaderView.swift; sourceTree = "<group>"; };
+		2E7A9DA62BECBE100044DF54 /* RecommendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionViewCell.swift; sourceTree = "<group>"; };
 		2E979FE82BD2326200B451F8 /* 34th-Sopt-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "34th-Sopt-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E979FEB2BD2326200B451F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E979FED2BD2326200B451F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,7 +114,9 @@
 		2E6628F32BE0E42600CE420F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				2E4B262C2BEA7FE6003F6DC6 /* MainCollectionViewCell.swift */,
+				2E4B262C2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift */,
+				2E7A9DA62BECBE100044DF54 /* RecommendCollectionViewCell.swift */,
+				2E66D57F2BEDA4DD001C3221 /* RecommendCollectionHeaderView.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -133,7 +139,7 @@
 		2E6628F62BE0E45800CE420F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2E6189672BDF831200CDC433 /* MainViewController.swift */,
+				2E6189672BDF831200CDC433 /* BaseViewController.swift */,
 				2E4B26282BEA1854003F6DC6 /* HomeViewController.swift */,
 			);
 			path = Controllers;
@@ -316,14 +322,16 @@
 				2E979FF02BD2326200B451F8 /* WelcomeViewController.swift in Sources */,
 				2E6189662BDF67C800CDC433 /* UIView+Extension.swift in Sources */,
 				2E4B26292BEA1854003F6DC6 /* HomeViewController.swift in Sources */,
-				2E4B262D2BEA7FE6003F6DC6 /* MainCollectionViewCell.swift in Sources */,
+				2E7A9DA72BECBE100044DF54 /* RecommendCollectionViewCell.swift in Sources */,
+				2E4B262D2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift in Sources */,
 				2E43491F2BDE16080074FE82 /* UILabel+Extension.swift in Sources */,
-				2E6189682BDF831200CDC433 /* MainViewController.swift in Sources */,
+				2E6189682BDF831200CDC433 /* BaseViewController.swift in Sources */,
 				2E4349212BDE1AC60074FE82 /* UITextField+Extension.swift in Sources */,
 				2E6628FD2BE125BF00CE420F /* Program.swift in Sources */,
 				2E24BAF22BDC879F0094A85F /* UIButton+Extension.swift in Sources */,
 				2E979FEC2BD2326200B451F8 /* AppDelegate.swift in Sources */,
 				2E979FEE2BD2326200B451F8 /* SceneDelegate.swift in Sources */,
+				2E66D5802BEDA4DD001C3221 /* RecommendCollectionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,17 +1,8 @@
-//
-//  HomeCollectionViewCell.swift
-//  34th-Sopt-Assignment
-//
-//  Created by Chandrala on 5/8/24.
-//
-
 import UIKit
 
-
-
-class MainCollectionViewCell: UICollectionViewCell {
+class TopCollectionViewCell: UICollectionViewCell {
     
-    static let identifier = "MainCollectionViewCell"
+    static let identifier = "TopCollectionViewCell"
     private var program: Program?
     
     private let mainPoster = UIImageView()
@@ -24,6 +15,7 @@ class MainCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setUI()
         addSubview(mainPoster)
         mainPoster.snp.makeConstraints {
             $0.edges.equalToSuperview()

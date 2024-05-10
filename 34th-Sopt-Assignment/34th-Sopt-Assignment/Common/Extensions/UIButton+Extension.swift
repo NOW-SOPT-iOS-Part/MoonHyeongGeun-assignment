@@ -3,6 +3,16 @@ import Foundation
 
 extension UIButton {
     
+    func setTitle(
+        title: String,
+        titleColor: UIColor = .white,
+        font: UIFont? = nil
+    ) {
+        setTitle(title, for: .normal)
+        setTitleColor(titleColor, for: .normal)
+        titleLabel?.font = font
+    }
+    
     func setLayer(
         borderColor: UIColor = .clear,
         borderWidth: CGFloat = 0,

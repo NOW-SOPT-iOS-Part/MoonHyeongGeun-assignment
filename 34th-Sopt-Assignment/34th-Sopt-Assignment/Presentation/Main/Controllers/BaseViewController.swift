@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import Then
 
-final class MainViewController: UIViewController {
+final class BaseViewController: UIViewController {
     // MARK: - Property
 //    private var titles = ["홈", "실시간", "TV프로그램", "영화", "파라마운트"]
     

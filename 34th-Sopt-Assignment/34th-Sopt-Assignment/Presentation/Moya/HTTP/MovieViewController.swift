@@ -69,9 +69,10 @@ final class MovieViewController: UIViewController{
                 DispatchQueue.main.async {
                     let movies = movieResponse.boxOfficeResult.dailyBoxOfficeList
                     if movies.count >= 3 {
-                        self?.movie1.text = movies[0].movieNm
-                        self?.movie2.text = movies[1].movieNm
-                        self?.movie3.text = movies[2].movieNm
+                        let labels = [self?.movie1, self?.movie2, self?.movie3]
+                        _ = zip(labels, movies.prefix(3)).map { (label, movie) in
+                            label?.text = movie.movieNm
+                        }
                     }
                 }
             case .failure(let error):

@@ -13,10 +13,9 @@ extension UILabel {
         self.attributedText = underLineText
     }
         
-    func setText(_ text: String, color: UIColor, font: UIFont?) {
+    func setText(text: String, color: UIColor, font: UIFont?) {
         self.text = text
         self.textColor = color
         self.font = font
     }
 }
-

@@ -30,6 +30,6 @@ class RecommendCollectionHeaderView: UICollectionReusableView {
     }
     
     func configure(with text: String) {
-        titleLabel.setText(text, color: UIColor.white, font: UIFont.pretendardFont(weight: 600, size: 15))
+        titleLabel.setText(text: text, color: UIColor.white, font: UIFont.pretendardFont(weight: 600, size: 15))
     }
 }

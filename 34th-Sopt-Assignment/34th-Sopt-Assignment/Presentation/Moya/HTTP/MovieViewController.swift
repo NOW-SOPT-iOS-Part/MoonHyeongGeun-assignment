@@ -14,21 +14,21 @@ final class MovieViewController: UIViewController{
 
     private let movie1 = UILabel().then{
         $0.setText(
-            "1등",
+            text: "1등",
             color: .black,
             font: UIFont.pretendardFont(weight: 500, size: 20)
         )
     }
     private let movie2 = UILabel().then{
         $0.setText(
-            "2등",
+            text: "2등",
             color: .black,
             font: UIFont.pretendardFont(weight: 500, size: 20)
         )
     }
     private let movie3 = UILabel().then{
         $0.setText(
-            "3등",
+            text: "3등",
             color: .black,
             font: UIFont.pretendardFont(weight: 500, size: 20)
         )

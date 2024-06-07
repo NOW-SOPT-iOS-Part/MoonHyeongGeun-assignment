@@ -2,16 +2,17 @@ import UIKit
 import SnapKit
 import Then
 
-final class BaseViewController: UIViewController {
+final class NavigationViewController: UIViewController {
     
     // MARK: - Property
-//    private var titles = ["홈", "실시간", "TV프로그램", "영화", "파라마운트"]
     
     // MARK: - Component
     
-//    private let tabbarCollectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-//    private var containerView: UIView!
-//    private var contentViewControllers: [UIViewController] = []
+    private let segmentedControl = UISegmentedControl(items: ["홈", "실시간", "TV프로그램", "영화", "파라마운트"]).then {
+        $0.backgroundColor = .clear
+        $0.selectedSegmentIndex = 0
+    }
+    
     private let tvingLogo = UIImageView()
     
     private let profile = UIImageView()

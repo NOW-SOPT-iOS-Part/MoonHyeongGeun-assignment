@@ -23,7 +23,7 @@
 		2E4B26292BEA1854003F6DC6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B26282BEA1854003F6DC6 /* HomeViewController.swift */; };
 		2E4B262D2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B262C2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift */; };
 		2E6189662BDF67C800CDC433 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6189652BDF67C800CDC433 /* UIView+Extension.swift */; };
-		2E6189682BDF831200CDC433 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6189672BDF831200CDC433 /* BaseViewController.swift */; };
+		2E6189682BDF831200CDC433 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6189672BDF831200CDC433 /* NavigationViewController.swift */; };
 		2E6198782C0DDD4B004BAC1D /* TopCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6198772C0DDD4B004BAC1D /* TopCollectionView.swift */; };
 		2E6628FD2BE125BF00CE420F /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6628FC2BE125BF00CE420F /* Program.swift */; };
 		2E66D5802BEDA4DD001C3221 /* RecommendCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66D57F2BEDA4DD001C3221 /* RecommendCollectionHeaderView.swift */; };
@@ -39,11 +39,13 @@
 		2E979FF82BD2326300B451F8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2E979FF72BD2326300B451F8 /* Base */; };
 		2E97A02F2BD243C000B451F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97A02E2BD243C000B451F8 /* LoginViewController.swift */; };
 		2E98E3792C12F1CB004A4CF3 /* RecommendCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98E3782C12F1CB004A4CF3 /* RecommendCollectionView.swift */; };
+		2E98E37B2C131023004A4CF3 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98E37A2C131023004A4CF3 /* NavigationView.swift */; };
+		2E98E3822C133EFB004A4CF3 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98E3812C133EFB004A4CF3 /* MovieViewModel.swift */; };
 		2EAD95F52BEE3C3400CF987E /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD95F42BEE3C3400CF987E /* NetworkResult.swift */; };
 		2EAD95F72BEE3C6200CF987E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD95F62BEE3C6200CF987E /* Config.swift */; };
 		2EAD95F92BEE3C9500CF987E /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD95F82BEE3C9500CF987E /* MoyaLoggingPlugin.swift */; };
 		2EAD95FC2BEE3D2D00CF987E /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 2EAD95FB2BEE3D2D00CF987E /* Moya */; };
-		2EAD95FE2BEE3E3100CF987E /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD95FD2BEE3E3100CF987E /* MovieViewController.swift */; };
+		2EAD95FE2BEE3E3100CF987E /* MovieRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD95FD2BEE3E3100CF987E /* MovieRankViewController.swift */; };
 		2EAD96022BEE447C00CF987E /* MovieRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD96012BEE447C00CF987E /* MovieRequestModel.swift */; };
 		2EAD96042BEE449300CF987E /* MovieResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD96032BEE449300CF987E /* MovieResponseModel.swift */; };
 		2EAD96062BEE4B2200CF987E /* MovieTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD96052BEE4B2200CF987E /* MovieTargetType.swift */; };
@@ -68,7 +70,7 @@
 		2E4B26282BEA1854003F6DC6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2E4B262C2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
 		2E6189652BDF67C800CDC433 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		2E6189672BDF831200CDC433 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2E6189672BDF831200CDC433 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		2E6198772C0DDD4B004BAC1D /* TopCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionView.swift; sourceTree = "<group>"; };
 		2E6628FC2BE125BF00CE420F /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
 		2E66D57F2BEDA4DD001C3221 /* RecommendCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionHeaderView.swift; sourceTree = "<group>"; };
@@ -85,10 +87,12 @@
 		2E979FF92BD2326300B451F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E97A02E2BD243C000B451F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2E98E3782C12F1CB004A4CF3 /* RecommendCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionView.swift; sourceTree = "<group>"; };
+		2E98E37A2C131023004A4CF3 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		2E98E3812C133EFB004A4CF3 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		2EAD95F42BEE3C3400CF987E /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		2EAD95F62BEE3C6200CF987E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		2EAD95F82BEE3C9500CF987E /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
-		2EAD95FD2BEE3E3100CF987E /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		2EAD95FD2BEE3E3100CF987E /* MovieRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRankViewController.swift; sourceTree = "<group>"; };
 		2EAD96012BEE447C00CF987E /* MovieRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequestModel.swift; sourceTree = "<group>"; };
 		2EAD96032BEE449300CF987E /* MovieResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponseModel.swift; sourceTree = "<group>"; };
 		2EAD96052BEE4B2200CF987E /* MovieTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTargetType.swift; sourceTree = "<group>"; };
@@ -127,7 +131,6 @@
 		2E6628F12BE0E3F900CE420F /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				2E6628F32BE0E42600CE420F /* Cells */,
 				2E6628F62BE0E45800CE420F /* Controllers */,
 				2E6628F52BE0E43C00CE420F /* Views */,
 				2E6628F42BE0E43700CE420F /* Models */,
@@ -140,7 +143,6 @@
 			children = (
 				2E6B08072C0DA0A9009D0E56 /* Controller */,
 				2E6B08062C0DA0A3009D0E56 /* View */,
-				2E6B08052C0DA09E009D0E56 /* Model */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -166,9 +168,11 @@
 		2E6628F52BE0E43C00CE420F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2E6628F32BE0E42600CE420F /* Cells */,
 				2E6198772C0DDD4B004BAC1D /* TopCollectionView.swift */,
 				2E98E3782C12F1CB004A4CF3 /* RecommendCollectionView.swift */,
 				2E6B080E2C0DA556009D0E56 /* HomeView.swift */,
+				2E98E37A2C131023004A4CF3 /* NavigationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,17 +180,10 @@
 		2E6628F62BE0E45800CE420F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2E6189672BDF831200CDC433 /* BaseViewController.swift */,
+				2E6189672BDF831200CDC433 /* NavigationViewController.swift */,
 				2E4B26282BEA1854003F6DC6 /* HomeViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		2E6B08052C0DA09E009D0E56 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		2E6B08062C0DA0A3009D0E56 /* View */ = {
@@ -252,6 +249,7 @@
 			children = (
 				2EAD96002BEE446700CF987E /* Moya */,
 				2E6628F22BE0E3FE00CE420F /* Login */,
+				2E98E37C2C133E74004A4CF3 /* MovieRank */,
 				2E6628F12BE0E3F900CE420F /* Main */,
 			);
 			path = Presentation;
@@ -293,33 +291,49 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		2EAD95F32BEE3C2500CF987E /* HTTP */ = {
+		2E98E37C2C133E74004A4CF3 /* MovieRank */ = {
 			isa = PBXGroup;
 			children = (
-				2EAD95F42BEE3C3400CF987E /* NetworkResult.swift */,
-				2EAD95F62BEE3C6200CF987E /* Config.swift */,
-				2EAD95F82BEE3C9500CF987E /* MoyaLoggingPlugin.swift */,
-				2EAD95FD2BEE3E3100CF987E /* MovieViewController.swift */,
-				2EAD96052BEE4B2200CF987E /* MovieTargetType.swift */,
-				2EAD96072BEE4D6E00CF987E /* MovieService.swift */,
+				2E98E3802C133EE1004A4CF3 /* ViewModels */,
+				2E98E37F2C133ED5004A4CF3 /* Views */,
+				2E98E37D2C133EC7004A4CF3 /* Models */,
 			);
-			path = HTTP;
+			path = MovieRank;
 			sourceTree = "<group>";
 		};
-		2EAD95FF2BEE445800CF987E /* Model */ = {
+		2E98E37D2C133EC7004A4CF3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				2EAD96012BEE447C00CF987E /* MovieRequestModel.swift */,
 				2EAD96032BEE449300CF987E /* MovieResponseModel.swift */,
 			);
-			path = Model;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E98E37F2C133ED5004A4CF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EAD95FD2BEE3E3100CF987E /* MovieRankViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E98E3802C133EE1004A4CF3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2E98E3812C133EFB004A4CF3 /* MovieViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		2EAD96002BEE446700CF987E /* Moya */ = {
 			isa = PBXGroup;
 			children = (
-				2EAD95FF2BEE445800CF987E /* Model */,
-				2EAD95F32BEE3C2500CF987E /* HTTP */,
+				2EAD95F42BEE3C3400CF987E /* NetworkResult.swift */,
+				2EAD95F62BEE3C6200CF987E /* Config.swift */,
+				2EAD95F82BEE3C9500CF987E /* MoyaLoggingPlugin.swift */,
+				2EAD96052BEE4B2200CF987E /* MovieTargetType.swift */,
+				2EAD96072BEE4D6E00CF987E /* MovieService.swift */,
 			);
 			path = Moya;
 			sourceTree = "<group>";
@@ -415,6 +429,7 @@
 			files = (
 				2E6198782C0DDD4B004BAC1D /* TopCollectionView.swift in Sources */,
 				2E6B080F2C0DA556009D0E56 /* HomeView.swift in Sources */,
+				2E98E37B2C131023004A4CF3 /* NavigationView.swift in Sources */,
 				2E24BAF02BDC82EE0094A85F /* UIFont+Extension.swift in Sources */,
 				2E97A02F2BD243C000B451F8 /* LoginViewController.swift in Sources */,
 				2E979FF02BD2326200B451F8 /* WelcomeViewController.swift in Sources */,
@@ -423,15 +438,16 @@
 				2EAD95F72BEE3C6200CF987E /* Config.swift in Sources */,
 				2E6B08092C0DA11D009D0E56 /* LoginView.swift in Sources */,
 				2E4B26292BEA1854003F6DC6 /* HomeViewController.swift in Sources */,
+				2E98E3822C133EFB004A4CF3 /* MovieViewModel.swift in Sources */,
 				2E7A9DA72BECBE100044DF54 /* RecommendCollectionViewCell.swift in Sources */,
 				2E4B262D2BEA7FE6003F6DC6 /* TopCollectionViewCell.swift in Sources */,
 				2EAD95F52BEE3C3400CF987E /* NetworkResult.swift in Sources */,
 				2E43491F2BDE16080074FE82 /* UILabel+Extension.swift in Sources */,
-				2E6189682BDF831200CDC433 /* BaseViewController.swift in Sources */,
+				2E6189682BDF831200CDC433 /* NavigationViewController.swift in Sources */,
 				2E4349212BDE1AC60074FE82 /* UITextField+Extension.swift in Sources */,
 				2E6628FD2BE125BF00CE420F /* Program.swift in Sources */,
 				2E98E3792C12F1CB004A4CF3 /* RecommendCollectionView.swift in Sources */,
-				2EAD95FE2BEE3E3100CF987E /* MovieViewController.swift in Sources */,
+				2EAD95FE2BEE3E3100CF987E /* MovieRankViewController.swift in Sources */,
 				2E24BAF22BDC879F0094A85F /* UIButton+Extension.swift in Sources */,
 				2EAD95F92BEE3C9500CF987E /* MoyaLoggingPlugin.swift in Sources */,
 				2E979FEC2BD2326200B451F8 /* AppDelegate.swift in Sources */,

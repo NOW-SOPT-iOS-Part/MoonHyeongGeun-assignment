@@ -1,22 +1,25 @@
 import UIKit
 
+import Then
+import SnapKit
+
 class TopCollectionViewCell: UICollectionViewCell {
     
     static let identifier = "TopCollectionViewCell"
     private var program: Program?
     
-    private let mainPoster = UIImageView()
-    
-    func setUI() {
-        mainPoster.do{
-            $0.contentMode = .scaleAspectFill
-        }
+    private let mainPoster = UIImageView().then {
+        $0.contentMode = .scaleAspectFill
+        $0.clipsToBounds = true
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setUI()
         addSubview(mainPoster)
+        setUI()
+    }
+    
+    private func setUI() {
         mainPoster.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
